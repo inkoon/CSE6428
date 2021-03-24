@@ -5,7 +5,7 @@ parser.add_argument("--input", required=True, type=str)
 parser.add_argument("--output", default="grammar.txt", type=str)
 args = parser.parse_args()
 
-grammar_list = [] # grammar list
+grammar_list = []  # grammar list
 with open(args.input, "r") as f:
     for line in f:
         line = line.strip()
@@ -25,4 +25,3 @@ grammar_list.sort()
 with open(args.output, "w") as f:
     for grammar in grammar_list:
         f.write(f"{grammar}\n")
-

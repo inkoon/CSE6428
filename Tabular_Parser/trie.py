@@ -1,9 +1,10 @@
 class Node(object):
     def __init__(self, key, word=None):
-        self.key = key # char key
-        self.word = word # word if leaf node else None
-        self.pos = [] # pos if leaf node else None
-        self.children = {} # child node
+        self.key = key  # char key
+        self.word = word  # word if leaf node else None
+        self.pos = []  # pos if leaf node else None
+        self.children = {}  # child node
+
 
 class Trie:
     def __init__(self):

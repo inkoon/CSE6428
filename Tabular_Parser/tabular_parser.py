@@ -1,4 +1,4 @@
-class TabularParser():
+class TabularParser:
     def __init__(self, trie, grammar):
         self.trie = trie
         self.grammar = grammar
@@ -9,7 +9,7 @@ class TabularParser():
         for i in range(length):
             for j in range(length):
                 if i <= j:
-                    self.result[i][j] = self.trie.search(string[i:j+1])
+                    self.result[i][j] = self.trie.search(string[i : j + 1])
 
     def show(self):
         n = len(self.result[0])
@@ -37,12 +37,13 @@ class TabularParser():
                     merge_res.append(f"{token1}+{token2}")
         return merge_res
 
-
     def parse(self, string):
         length = len(string)
         self.init(string, length)
         for i in range(1, length):
-            for j in range(length-1, -1, -1):
+            for j in range(length - 1, -1, -1):
                 for k in range(j, i):
-                    self.result[j][i] += self.merge(self.result[j][k], self.result[k+1][i])
-        return self.result[0][length-1]
+                    self.result[j][i] += self.merge(
+                        self.result[j][k], self.result[k + 1][i]
+                    )
+        return self.result[0][length - 1]
