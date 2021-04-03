@@ -1,0 +1,152 @@
+I saw a man on the hill with the telescope
+n -> I
+NP -> n
+v -> saw
+n -> saw
+VP -> v
+NP -> n
+S -> NP VP
+NP -> NP VP
+det -> a
+DT -> det
+n -> man
+v -> man
+NP -> n
+VP -> v
+NP -> DT NP
+VP -> VP NP
+S -> NP VP
+NP -> NP VP
+p -> on
+P -> p
+det -> the
+DT -> det
+n -> hill
+NP -> n
+NP -> DT NP
+PP -> P NP
+NP -> NP PP
+VP -> VP PP
+NP -> DT NP
+NP -> NP PP
+VP -> VP NP
+VP -> VP NP
+VP -> VP PP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+NP -> NP PP
+p -> with
+P -> p
+det -> the
+DT -> det
+n -> telescope
+NP -> n
+NP -> DT NP
+PP -> P NP
+NP -> NP PP
+NP -> DT NP
+NP -> NP PP
+PP -> P NP
+PP -> P NP
+NP -> NP PP
+NP -> NP PP
+VP -> VP PP
+VP -> VP PP
+NP -> NP PP
+VP -> VP PP
+NP -> DT NP
+NP -> DT NP
+NP -> DT NP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+VP -> VP NP
+VP -> VP NP
+VP -> VP NP
+VP -> VP NP
+VP -> VP NP
+VP -> VP NP
+VP -> VP NP
+VP -> VP PP
+VP -> VP PP
+VP -> VP PP
+VP -> VP PP
+VP -> VP PP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+S -> NP VP
+NP -> NP VP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+NP -> NP PP
+
+time flies like an arrow
+n -> time
+v -> time
+NP -> n
+VP -> v
+n -> flies
+v -> flies
+NP -> n
+VP -> v
+S -> NP VP
+NP -> NP VP
+VP -> VP NP
+p -> like
+v -> like
+P -> p
+VP -> v
+S -> NP VP
+NP -> NP VP
+VP -> VP NP
+S -> NP VP
+NP -> NP VP
+det -> an
+DT -> det
+n -> arrow
+NP -> n
+NP -> DT NP
+PP -> P NP
+VP -> VP NP
+NP -> NP PP
+S -> NP VP
+NP -> NP VP
+VP -> VP PP
+S -> NP VP
+NP -> NP VP
+VP -> VP NP
+VP -> VP NP
+NP -> NP PP
+S -> NP VP
+NP -> NP VP
+VP -> VP PP
+VP -> VP NP
+
